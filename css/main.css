@@ -4119,7 +4119,149 @@ opacity: 0.5;
 
 }
 
+/* ________________________________PRICING_________________________________ */
+.pricing_container {
+  background: linear-gradient(135deg, #2b70d3 0%, #fe9c9a 100%);
+  /* background-color: #2b70d3; */
+  padding-bottom: 60px;
+  text-align: center;
+  margin: 0 auto;
 
+}
+
+
+.section_title_pricing{
+  width: 100%;
+  text-align: center;
+  font-family: mont_extrabold, sans-serif;
+  font-size: 32px;
+  margin-bottom: 30px;
+  margin-top: 60px;
+  color: white;
+}
+
+
+.pricingcard{
+  width: 440px;
+  border-radius: 15px;
+  padding-bottom: 4px;
+
+  z-index: 10;
+  margin:auto;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 9px 28px -6px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 9px 28px -6px rgba(0, 0, 0, 0.36);
+  box-shadow: 0px 9px 28px -6px rgba(0, 0, 0, 0.36);
+}
+
+.pricingfelso{
+  padding:20px;
+    border-bottom: 2px solid grey;
+
+    color: black;
+    font-family: mont, serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.pricingfelso p{
+  line-height: 30px;
+  margin: 0px;
+}
+
+.price_top{
+  padding-top:40px;
+  padding-bottom: 0px;
+
+    color: black;
+    font-family: mont_extrabold, serif;
+    font-size: 66px;
+    text-align: center;
+}
+
+.price_top p{
+  line-height: 60px;
+  margin: 0px;
+}
+
+.price_top_alatt{
+
+    color: grey;
+    font-family: mont, serif;
+    font-size: 12px;
+    text-align: center;
+
+
+}
+
+.price_top_alatt p{
+margin:2px;
+
+}
+
+
+.price_bottom{
+  padding-top: 0px;
+    color: grey;
+    font-family: mont, serif;
+    font-size: 12px;
+    text-align: center;
+      margin-bottom: 30px;
+}
+
+.price_bottom_alatt{
+
+    color: black;
+    font-family: mont, serif;
+    font-size: 18px;
+    text-align: center;
+
+  /* background-color: #FFE600; */
+  width: 300px;
+  margin: auto;
+  /* border-radius: 10px; */
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.pricecta{
+    margin-top: 50px;
+        padding-bottom : 15px;
+}
+
+.hero_cta_pricing {
+  font-family: mont_semi;
+  font-size: 1rem;
+  color: white;
+  background-color: #fe9c9a;
+  padding: 20px 100px 18px 120px;
+  border-radius: 8px;
+
+  transition: 100ms;
+}
+
+.hero_cta_pricing:hover {
+
+  transition: 100ms;
+  color: white;
+}
+
+
+.pricing_cta_alatt{
+
+    color: grey;
+    font-family: mont, serif;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+/* _______________________________________SMOOTH SETUP PROCESS__________________________________ */
 
 
 /* _________________________________________________NAVBAR_SCROLLED______________________________________________________________ */
