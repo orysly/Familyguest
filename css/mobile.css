@@ -1,0 +1,95 @@
+.menu_details{
+    display: flex;
+    height: 50px;
+    background-color: #FFE600;
+    align-items: center;
+    /* position: fixed; */
+    width: 100%;
+    position:sticky;
+    position: -webkit-sticky;
+ position: -moz-sticky;
+ position: -ms-sticky;
+ position: -o-sticky;
+  top: 0px;
+  padding-left: 0px;
+  }
+
+  u {
+    text-decoration: none;
+    font-style: normal;
+      font-family: mont_bold;
+      font-size: 16px;
+      color:black;
+  }
+
+  #ikon_whatwe{
+    height: 30px;
+    width: 30px;
+    margin:0px;
+    margin-right:10px;
+    margin-bottom: 0px;
+  }
+
+  .whatwedo_details{
+    background-color: white;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top:  0px;
+    padding-bottom: 50px;
+    /* margin-top: 100px; */
+
+  }
+
+  .whatwedo_title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+      color: black;
+      text-align: left;
+      font-family: mont_bold, serif;
+      font-size: 20px;
+      text-align: left;
+      padding-top: 32px;
+
+  }
+  .whatwedo_elem{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .whatwedo_szoveg{
+
+      color: black;
+      text-align: center;
+      font-family: mont, serif;
+      font-size: 16px;
+      text-align: left;
+      padding-left: 0px;
+      padding-top: 16px;
+
+      /* width: 1050px; */
+      height: auto;
+      margin-bottom: 20px;
+
+
+  }
+
+  .whatwedo_szoveg2{
+
+    color: black;
+    text-align: center;
+    font-family: mont, serif;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 16px;
+
+    /* width: 1050px; */
+    height: auto;
+    margin-bottom: 20px;
+
+
+  }
